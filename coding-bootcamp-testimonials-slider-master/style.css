@@ -57,7 +57,10 @@ body{
     margin-left: 4rem;
     z-index: 2;
     position: fixed;
-    
+    border-radius: 7px;
+    height: 51%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
 }
 
 .img-background1{
@@ -72,7 +75,7 @@ body{
     width: 100px;
     border-radius: 50px;
     position: absolute;
-    bottom: 20.5%;
+    bottom: 21.5%;
     left: 52%;
     z-index: 3;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
