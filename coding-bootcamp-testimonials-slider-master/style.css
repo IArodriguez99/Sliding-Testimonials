@@ -17,6 +17,7 @@ body{
     background-image: url(./images/pattern-curve.svg);
     background-repeat: no-repeat;
     background-position-y: 650px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .profile{
@@ -53,13 +54,32 @@ body{
 
 .profile-img{
     margin-top: 4rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
     z-index: 2;
     position: fixed;
+    
 }
 
-.img-background{
+.img-background1{
     position: relative;
     bottom: 20%;
     z-index: 1;
+}
+
+.ellipse{
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 20.5%;
+    left: 52%;
+    z-index: 3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.previous{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 35px;
 }
